@@ -8,5 +8,7 @@ defmodule Pingring.Router do
   scope "/api", Pingring do
     pipe_through :api
     get "/ping", PingController, :ping
+    put "/store/:key", StoreController, :store
+    get "/store/:key", StoreController, :fetch
   end
 end
