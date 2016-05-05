@@ -6,4 +6,3 @@ config :riak_core,
   handoff_port: 8199,
   ring_state_dir: 'ring_data_dir_b',
   platform_data_dir: 'data_b',
-  schema_dirs: ['priv']
