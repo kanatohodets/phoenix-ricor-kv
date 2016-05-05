@@ -47,5 +47,3 @@ config :lager,
   handlers: [
     lager_console_backend: :debug,
   ]
-
-import_config "#{Mix.env}.exs"
