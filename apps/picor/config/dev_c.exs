@@ -5,4 +5,4 @@ config :riak_core,
   web_port: 8298,
   handoff_port: 8299,
   ring_state_dir: 'ring_data_dir_c',
-  platform_data_dir: 'data_c',
+  platform_data_dir: 'data_c'

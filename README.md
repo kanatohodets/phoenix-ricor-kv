@@ -48,3 +48,8 @@ one of the ring members goes down, we'll have better luck with `n=3`:
     curl -H "Content-Type: application/json" -XGET localhost:4000/api/store/my_cool_key?n=3
 
 This will return multiple copies of the data, but better some than none, right?
+
+### Compatibility (Erlang 18 only)
+Riak Core has a fairly large dependency footprint, so often not everything
+compiles on the latest Erlang. If you'd like to play around with Elixir and
+Riak Core, for now you need to stick to Erlang 18.

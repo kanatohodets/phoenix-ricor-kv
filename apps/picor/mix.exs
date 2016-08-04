@@ -37,8 +37,7 @@ defmodule Picor.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:poolboy, "~> 0.8.1-p3", hex: :basho_poolboy},
-      {:riak_core, "~> 2.2", hex: :riak_core_ng}
+      {:riak_core, ">= 2.2.6", hex: :riak_core_ng}
     ]
   end
 end
